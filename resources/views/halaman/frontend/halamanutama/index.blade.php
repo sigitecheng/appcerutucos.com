@@ -1,270 +1,312 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/assets/output.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/js/flickity.min.css" media="screen">
-</head>
-<body class="font-poppins text-[#292E4B] bg-[#F6F9FC]">
-    <section class="max-w-[640px] w-full min-h-screen mx-auto flex flex-col bg-white overflow-x-hidden pb-[134px]">
-        <div class="header flex flex-col bg-gradient-to-b from-[#3CBBDB] to-[#EAD380] rounded-b-[50px] overflow-hidden">
+
+@include('tambahanfitur.header')
+
+
+            <body class="font-poppins text-[#292E4B] bg-[#F6F9FC]">
+                <section class="max-w-[640px] w-full min-h-screen mx-auto flex flex-col bg-white overflow-x-hidden pb-[134px]">
+                    
+                    <div style="display: flex; flex-direction: column; background-image: linear-gradient(to bottom,  #000000, #8B4513); border-radius: 0 0 50px 50px; overflow: hidden;" class="header">
+            
             <nav class="pt-5 px-3 flex justify-between items-center">
-                <div class="flex items-center gap-[10px]">
-                    <div class="w-10 h-10 flex shrink-0">
-                        <img src="assets/images/icons/loc.svg" alt="icon">
+             
+             <a href="/tentangkami">
+                 <div class="flex items-center gap-[2px]">
+                     <div class="w-10 h-10 flex shrink-0">
+                        <img width="80px;" height="80px;" src="/assets/gambardepan/iconcos2.png" alt="/assets/gambardepan/iconcos2.png">
+                    </div>
+                    <div class="flex flex-col text-white">
+                        {{-- <p></p> --}}
+                        <p class="text-xs leading-[18px]">Bandung, West, Java Indonesia</p>
+                        <p class="font-semibold text-sm">About Us</p>
+                    </div>
+                </div>
+            </a>   
+{{--              
+             <a href="/lokasimakangratis">
+                 <div class="flex items-center gap-[10px]">
+                     <div class="w-10 h-10 flex shrink-0 text-white">
+                        <img src="/assets/css/fe_css/images/tentangkami/tempatmakangratis.png" alt="icon">
                     </div>
                     <div class="flex flex-col text-white">
                         <p class="text-xs leading-[18px]">Location</p>
-                        <p class="font-semibold text-sm">Bali, Indonesia</p>
+                        <p class="font-semibold text-sm">Lokasi Makan Gratis</p>
                     </div>
                 </div>
-                <a href="" class="w-10 h-10 flex shrink-0">
-                    <img src="assets/images/icons/menu.svg" alt="icon">
-                </a>
+            </a>    --}}
+             
+             {{-- <a href="/daftarumkm">
+                 <div class="flex items-center gap-[10px]">
+                     <div class="w-10 h-10 flex shrink-0">
+                        <img src="/assets/css/fe_css/images/tentangkami/listumkm.png" alt="icon">
+                    </div>
+                    <div class="flex flex-col text-white">
+                        <p class="text-xs leading-[18px]">Location</p>
+                        <p class="font-semibold text-sm">Daftar UMKM</p>
+                    </div>
+                </div>
+            </a>    --}}
+             
+             
             </nav>
+
             <div class="mt-[30px] z-10">
-                <h1 class="font-extrabold text-2xl leading-[36px] text-white text-center">Help Other People.<br>Life Becomes Happier.</h1>
+                @if(auth()->check()) 
+                            <!-- Jika pengguna sudah login -->
+                            <h1 class="font-semibold leading-[36px] text-white text-center" style="font-size: 18px;">Selamat Datang ! <span class="font-bold" style="color:white"> {{ auth()->user()->name }}</span></h1>
+                        @else
+                            <!-- Jika pengguna belum login -->
+                            <h1 class="font-extrabold leading-[36px] text-white text-center" style="font-size: 18px;">Cos Indonesia<br></h1>
+                        @endif
+             
+                 @if(auth()->check()) 
+                            <!-- Jika pengguna sudah login -->
+                            <h1 class="font-semibold leading-[36px] text-white text-center" style="font-size: 18px;">Anda Adalah <span class="font-bold" style="color:white"> {{ auth()->user()->is_admin }}</span></h1>
+                        @else
+                            <!-- Jika pengguna belum login -->
+                            <h1 class="font-extrabold leading-[36px] text-white text-center" style="font-size: 18px;">Coeroetoe Oerang Soenda<br></h1>
+                        @endif
+
             </div>
-            <div class="w-full h-fit overflow-hidden -mt-[33px]">
-                <img src="assets/images/backgrounds/hero-background.png" class="w-full h-full object-contain" alt="background">
+            
+            <div style="width: 30%; height: fit-content; overflow: hidden; margin-top: 1rem; margin-bottom: 1rem; margin-left: auto; margin-right: auto;">
+                <img src="/assets/gambardepan/handmadecigar.png" class="width: 100%; height: 100%; object-fit: contain" alt="/assets/gambardepan/handmadecigar.png">
             </div>
+
+            {{-- <div class="container" style="display: flex; justify-content: center; margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+                <div class="scrollable-div" style="width: 100%; max-width: 100%; height: 300px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
+                      
+                    <div id="latest-fundrising">
+                       <br>
+                       <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 14px; padding-left: 10px; padding-right: 10px;">
+
+                            
+                            
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
+        
+<a href="/paymentgateways">
+
+    <div style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+        <div style="text-align: center;">
+            {{-- <button style="padding: 8px 12px; border-radius: 9999px; background-color: silver; font-weight: bold; font-size: 0.875rem; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s; border: none;">
+                Donasi
+            </button> --}}
         </div>
-        <div id="popular-fundrising" class="mt-8">
-            <div class="px-4 flex justify-between items-center">
-                <h2 class="font-bold text-lg">Popular <br>Fundraisings</h2>
-                <a href="" class="p-[6px_12px] rounded-full bg-[#E8E9EE] font-semibold text-sm">Explore All</a>
-            </div>
-            <div class="main-carousel mt-[14px]">
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon natural disasters.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Natural Disasters</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon animals rescue.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Animals Rescue</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon medical treatment.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Medical Treatment</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon small business.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Small Business</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon natural disasters.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Protecting Nature</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon medical treatment-1.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Education Funding</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon building project.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Building Project</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon animals rescue.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Humanity</span>
-                    </a>
-                </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4">
-                    <a href="category.html" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]">
-                        <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                            <img src="assets/images/icons/icon animals rescue.png" alt="icon">
-                        </div>
-                        <span class="font-semibold text-center my-auto">Orphans</span>
-                    </a>
-                </div>
-            </div>
-        </div>
+                
+    </div>
+
+</div>
+</a>
+
+
+        {{-- ========================================= --}}
+
         <div id="best-choices" class="mt-8 -mb-6">
             <div class="px-4 flex justify-between items-center">
-                <h2 class="font-bold text-lg">KitaBantu <br>Best Choices</h2>
-                <a href="" class="p-[6px_12px] rounded-full bg-[#E8E9EE] font-semibold text-sm">Explore All</a>
+                <h2 class="font-bold text-sm">Cigar Cos Indonesia</h2>
+                {{-- <a href="/daftarmitra" style="padding: 6px 12px; border-radius: 9999px; background-color: #E8E9EE; font-weight: bold; font-size:12px; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s;" class="rounded-full bg-[#E8E9EE] font-semibold text-sm">
+                    <i class="fas fa-file" style="margin-right: 5px;"></i> Daftar Mitra
+                  </a> --}}
+                {{-- <a href="" class="p-[6px_12px] rounded-full bg-blue-500 hover:bg-stone-200 font-semibold text-sm text-white hover:text-stone-800">Daftar Mitra</a> --}}
             </div>
-            <div class="main-carousel mt-[14px]">
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
-                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+            
+            <div class="main-carousel" style="margin-top: 14px; display: flex; flex-direction: row; overflow-x: auto;">
+                <div class="carousel-item" style="padding: 0 2px;">
+                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
+                        <a href="/paymentgateways">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/images/thumbnails/th1.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="assets/css/fe_css/images/programmakangratis/makangratiscileunyi.jpeg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratiscileunyi.jpeg">
                             </div>
+                            <div class="flex flex-col gap-[6px]">
+                                <a  class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Cileunyi, Bandung</a>
+                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
+                            </div>
+                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                         </a>
-                        <div class="flex flex-col gap-[6px]">
-                            <a href="details.html" class="font-bold line-clamp-2 hover:line-clamp-none">Makanan Bergizi Warga Terdampar</a>
-                            <p class="text-xs leading-[18px]">Target <span class="font-bold text-[#FF7815]">Rp 800.000.000</span></p>
-                        </div>
-                        <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                     </div>
                 </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
-                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+            
+                <div class="carousel-item" style="padding: 0 2px;">
+                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
+                        <a href="/paymentgateways">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/images/thumbnails/th2.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="assets/css/fe_css/images/programmakangratis/makangratiskopo.jpg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratiskopo.jpg">
                             </div>
+                            <div class="flex flex-col gap-[6px]">
+                                <a class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Kopo, Bandung</a>
+                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
+                            </div>
+                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                         </a>
-                        <div class="flex flex-col gap-[6px]">
-                            <a href="details.html" class="font-bold line-clamp-2 hover:line-clamp-none">Bangun Panti Asuhan 10,000 Yatim Piatu</a>
-                            <p class="text-xs leading-[18px]">Target <span class="font-bold text-[#FF7815]">Rp 25.000.000</span></p>
-                        </div>
-                        <progress id="fund" value="66" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                     </div>
                 </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
-                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+             
+                <div class="carousel-item" style="padding: 0 2px;">
+                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
+                        <a href="/paymentgateways">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/images/thumbnails/th3.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="assets/css/fe_css/images/programmakangratis/makangratislembang.jpg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratislembang.jpg">
                             </div>
+                            <div class="flex flex-col gap-[6px]">
+                                <a class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Lembang, Bandung</a>
+                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
+                            </div>
+                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                         </a>
-                        <div class="flex flex-col gap-[6px]">
-                            <a href="details.html" class="font-bold line-clamp-2 hover:line-clamp-none">Banjir 10 Meter Kota Saranjopa Iyola</a>
-                            <p class="text-xs leading-[18px]">Target <span class="font-bold text-[#FF7815]">Rp 12.000.000</span></p>
-                        </div>
-                        <progress id="fund" value="10" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                     </div>
                 </div>
-                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
-                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                <div class="carousel-item" style="padding: 0 2px;">
+                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
+                        <a href="/paymentgateways">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/images/thumbnails/th4.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <img src="assets/css/fe_css/images/programmakangratis/makangratisstasiunbandung.jpeg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratisstasiunbandung.jpeg">
                             </div>
+                            <div class="flex flex-col gap-[6px]">
+                                <a class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Stasiun Bandung, Bandung</a>
+                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
+                            </div>
+                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                         </a>
-                        <div class="flex flex-col gap-[6px]">
-                            <a href="details.html" class="font-bold line-clamp-2 hover:line-clamp-none">Perbaikan Asli Kebakaran Hutan</a>
-                            <p class="text-xs leading-[18px]">Target <span class="font-bold text-[#FF7815]">Rp 800.000.000</span></p>
-                        </div>
-                        <progress id="fund" value="88" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                     </div>
                 </div>
+            
+                <!-- Konten carousel selanjutnya disini -->
             </div>
+            
+
+            
         </div>
-        <div id="latest-fundrising" class="mt-8">
-            <div class="px-4 flex justify-between items-center">
-                <h2 class="font-bold text-lg">Latests <br>Fundraisings</h2>
-                <a href="" class="p-[6px_12px] rounded-full bg-[#E8E9EE] font-semibold text-sm">Explore All</a>
-            </div>
-            <div class="flex flex-col gap-4 mt-[14px] px-4">
-                <a href="details.html" class="card">
-                    <div class="w-full border border-[#E8E9EE] flex items-center p-[14px] gap-3 rounded-2xl bg-white">
-                        <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                            <img src="assets/images/thumbnails/th5.png" class="w-full h-full object-cover" alt="thumbnail">
-                        </div>
-                        <div class="flex flex-col gap-1">
-                            <p class="font-bold line-clamp-1 hover:line-clamp-none">Operasi Ginjal Kanan</p>
-                            <p class="text-xs leading-[18px]">Target <span class="font-bold text-[#FF7815]">Rp 55.000.000</span></p>
-                            <div class="flex items-center gap-1 sm:flex-row-reverse sm:justify-end">
-                                <p class="font-semibold sm:font-medium text-xs leading-[18px]">Putra Bangsa</p>
-                                <div class="flex shrink-0">
-                                    <img src="assets/images/icons/tick-circle.svg" alt="icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="details.html" class="card">
-                    <div class="w-full border border-[#E8E9EE] flex items-center p-[14px] gap-3 rounded-2xl bg-white">
-                        <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                            <img src="assets/images/thumbnails/th6.png" class="w-full h-full object-cover" alt="thumbnail">
-                        </div>
-                        <div class="flex flex-col gap-1">
-                            <p class="font-bold line-clamp-1 hover:line-clamp-none">Buku Edukasi Peduli Anak lorem ipsum</p>
-                            <p class="text-xs leading-[18px]">Target <span class="font-bold text-[#FF7815]">Rp 800.000.000</span></p>
-                            <div class="flex items-center gap-1 sm:flex-row-reverse sm:justify-end">
-                                <p class="font-semibold sm:font-medium text-xs leading-[18px]">Putra Bangsa</p>
-                                <div class="flex shrink-0">
-                                    <img src="assets/images/icons/tick-circle.svg" alt="icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="details.html" class="card">
-                    <div class="w-full border border-[#E8E9EE] flex items-center p-[14px] gap-3 rounded-2xl bg-white">
-                        <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                            <img src="assets/images/thumbnails/th7.png" class="w-full h-full object-cover" alt="thumbnail">
-                        </div>
-                        <div class="flex flex-col gap-1">
-                            <p class="font-bold line-clamp-1 hover:line-clamp-none">Bangun Desa Angga</p>
-                            <p class="text-xs leading-[18px]">Target <span class="font-bold text-[#FF7815]">Rp 18.500.000.000</span></p>
-                            <div class="flex items-center gap-1 sm:flex-row-reverse sm:justify-end">
-                                <p class="font-semibold sm:font-medium text-xs leading-[18px]">Putra Bangsa</p>
-                                <div class="flex shrink-0">
-                                    <img src="assets/images/icons/tick-circle.svg" alt="icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+
+        {{-- ======================================================================================== --}}
+<br><br>        
+
+        {{-- ===================================================================================================== --}}
+
+        <div class="px-4 flex justify-between items-center mb-4">
+            <h2 class="font-bold text-sm">Program <br>Makan Gratis</h2>
+            <a href="/lokasipengajuan" style="padding: 6px 12px; border-radius: 9999px; background-color: #E8E9EE; font-weight: bold; font-size:12px; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s;" class="rounded-full bg-[#E8E9EE] font-semibold text-sm">
+               <i class="fas fa-utensil-spoon" style="margin-right: 5px;"></i> Ajukan Lokasi
+              </a>
+            
+              
+            {{-- <a href="" class="p-[6px_12px] rounded-full bg-blue-500 hover:bg-stone-200 font-semibold text-sm text-white hover:text-stone-800">Daftar Mitra</a> --}}
         </div>
-        <div id="menu" class="max-w-[341px] w-full fixed bottom-[20px] p-3 flex items-center justify-between rounded-[30px] bg-[#1E2037] transform -translate-x-1/2 left-1/2">
-            <a href="" class="p-[14px_16px] flex items-center gap-[6px] rounded-full bg-[#FF7815]">
-                <div class="flex shrink-0">
-                    <img src="assets/images/icons/heart.svg" alt="icon">
+        <br>
+                <div id="popular-fundrising" class="mt-4" style="display: flex; overflow-x: auto;">
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/haiucaresprogramkami" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/programkami.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Program Kami</span>
+                        </a>
+                    </div>
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/comingsoon" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/laporandistribusi.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Distribusi Makan Gratis</span>
+                        </a>
+                    </div>
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/daftarmitra" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/mitraumkm.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Mitra UMKM</span>
+                        </a>
+                    </div>
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/comingsoon" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/laporan.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Laporan Distribusi </span>
+                        </a>
+                    </div>
+
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/daftarmenu" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/daftarmenumakanan.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Daftar Menu Makanan</span>
+                        </a>
+                    </div>
+                    
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/daftarjadimitra" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/daftarjadimitra.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Daftar Jadi Mitra</span>
+                        </a>
+                    </div>
+
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/lokasipengajuan" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/lokasipengajuan.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Lokasi Pengajuan</span>
+                        </a>
+                    </div>
+                    
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="/comingsoon" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/css/fe_css/images/menupilihan/sponsorkami.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Sponsor Kami</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
                 </div>
-                <span class="font-semibold text-sm text-white">Discover</span>
-            </a>
-            <a href="" class="flex items-center justify-center w-[56px] h-[52px] p-[14px_16px]">
-                <div class="flex shrink-0 w-6 h-6 overflow-hidden">
-                    <img src="assets/images/icons/crown.svg" alt="icon">
+
+                
+                {{-- =============================================================================== --}}
+        
+                <div id="popular-fundrising" class="mt-8">
+                    <div class="px-4 popular-link" style="display: flex; justify-content: center; align-items: center;">
+                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="assets/css/fe_css/images/icons/kontributors.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
+                        Kontributors
+                      </a>
+                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="assets/css/fe_css/images/icons/distribusi.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
+                         Distribusi
+                      </a>
+                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="assets/css/fe_css/images/icons/star.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
+                        Awwards
+                      </a>
+                    </div>
+                    <div class="px-4 popular-link mt-4" style="display: flex; justify-content: center; align-items: center;">
+                      <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="assets/css/fe_css/images/icons/star.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
+                        Tentang Kami
+                      </a>
+                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="assets/css/fe_css/images/icons/star.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
+                        Kontak Kami
+                      </a>
+                    </div>
+                  </div>
+                  
+        
+                  @include('tambahanfitur.menuandroid')
+                  
                 </div>
-            </a>
-            <a href="" class="flex items-center justify-center w-[56px] h-[52px] p-[14px_16px]">
-                <div class="flex shrink-0 w-6 h-6 overflow-hidden">
-                    <img src="assets/images/icons/3dcube.svg" alt="icon">
-                </div>
-            </a>
-            <a href="" class="flex items-center justify-center w-[56px] h-[52px] p-[14px_16px]">
-                <div class="flex shrink-0 w-6 h-6 overflow-hidden">
-                    <img src="assets/images/icons/setting-2.svg" alt="icon">
-                </div>
-            </a>
-        </div>
+            </div>
+            @include('tambahanfitur.informasiperusahaan')
+            {{-- @include('fe_dashboard.menu.android') --}}
+        
+
     </section>
-
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-
-    <script src="/assets/js/flickity.pkgd.min.js"></script>
-
-    <script src="/assets/main.js"></script>
-</body>
-</html>
+    
+    @include('tambahanfitur.footer')

@@ -4,7 +4,9 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('halaman.frontend.halamanutama.index');
+    return view('halaman.frontend.halamanutama.index', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
 });
 
 Route::get('/dashboard', function () {
