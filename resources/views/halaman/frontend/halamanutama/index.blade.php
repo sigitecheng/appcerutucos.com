@@ -114,68 +114,23 @@
                   
                 {{-- <a href="" class="p-[6px_12px] rounded-full bg-blue-500 hover:bg-stone-200 font-semibold text-sm text-white hover:text-stone-800">Daftar Mitra</a> --}}
             </div>
-            
             <div class="main-carousel" style="margin-top: 14px; display: flex; flex-direction: row; overflow-x: auto;">
                 <div class="carousel-item" style="padding: 0 2px;">
                     <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
-                        <a href="/paymentgateways">
-                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/css/fe_css/images/programmakangratis/makangratiscileunyi.jpeg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratiscileunyi.jpeg">
+                        <a href="#">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0">
+                                <!-- Gambar Produk -->
+                                <img src="assets/gambardepan/dokumentasi/1.jpeg" 
+                                     class="assets/gambardepan/dokumentasi/1.jpeg   " 
+                                     alt="Gambar Produk">
                             </div>
                             <div class="flex flex-col gap-[6px]">
-                                <a  class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Cileunyi, Bandung</a>
-                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
+                                <p class="text-xs leading-[18px]">Contoh Konten</p>
                             </div>
                             <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                         </a>
                     </div>
                 </div>
-            
-                <div class="carousel-item" style="padding: 0 2px;">
-                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
-                        <a href="/paymentgateways">
-                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/css/fe_css/images/programmakangratis/makangratiskopo.jpg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratiskopo.jpg">
-                            </div>
-                            <div class="flex flex-col gap-[6px]">
-                                <a class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Kopo, Bandung</a>
-                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
-                            </div>
-                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
-                        </a>
-                    </div>
-                </div>
-             
-                <div class="carousel-item" style="padding: 0 2px;">
-                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
-                        <a href="/paymentgateways">
-                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/css/fe_css/images/programmakangratis/makangratislembang.jpg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratislembang.jpg">
-                            </div>
-                            <div class="flex flex-col gap-[6px]">
-                                <a class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Lembang, Bandung</a>
-                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
-                            </div>
-                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
-                        </a>
-                    </div>
-                </div>
-                <div class="carousel-item" style="padding: 0 2px;">
-                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
-                        <a href="/paymentgateways">
-                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
-                                <img src="assets/css/fe_css/images/programmakangratis/makangratisstasiunbandung.jpeg" class="w-full h-full object-cover" alt="assets/css/fe_css/images/programmakangratis/makangratisstasiunbandung.jpeg">
-                            </div>
-                            <div class="flex flex-col gap-[6px]">
-                                <a class="font-bold line-clamp-2 hover:line-clamp-none" style="font-size: 14px;">Makan Gratis Stasiun Bandung, Bandung</a>
-                                <p class="text-xs leading-[18px]">Target <span class="font-bold text-blue-500">Rp 25.000.000</span></p>
-                            </div>
-                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
-                        </a>
-                    </div>
-                </div>
-            
-                <!-- Konten carousel selanjutnya disini -->
             </div>
             
 
