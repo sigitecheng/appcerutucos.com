@@ -16,7 +16,7 @@
                     </div>
                     <div class="flex flex-col text-white">
                         {{-- <p></p> --}}
-                        <p class="text-xs leading-[18px]">Bandung, West, Java Indonesia</p>
+                        <p class="text-xs leading-[18px]">Bandung, West Java, Indonesia</p>
                         <p class="font-semibold text-sm">About Us</p>
                     </div>
                 </div>
@@ -143,9 +143,9 @@
         {{-- ===================================================================================================== --}}
 
         <div class="px-4 flex justify-between items-center mb-4">
-            <h2 class="font-bold text-sm">Program <br>Makan Gratis</h2>
-            <a href="/lokasipengajuan" style="padding: 6px 12px; border-radius: 9999px; background-color: #E8E9EE; font-weight: bold; font-size:12px; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s;" class="rounded-full bg-[#E8E9EE] font-semibold text-sm">
-               <i class="fas fa-utensil-spoon" style="margin-right: 5px;"></i> Ajukan Lokasi
+            <h2 class="font-bold text-sm">Company <br>Cigar Cos Indonesia</h2>
+            <a href="#" style="padding: 6px 12px; border-radius: 9999px; background-color: #E8E9EE; font-weight: bold; font-size:12px; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s;" class="rounded-full bg-[#E8E9EE] font-semibold text-sm">
+               <i class="fas fa-utensil-spoon" style="margin-right: 5px;"></i> Coeroetoe Oerang Soenda
               </a>
             
               
@@ -154,71 +154,54 @@
         <br>
                 <div id="popular-fundrising" class="mt-4" style="display: flex; overflow-x: auto;">
                     <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/haiucaresprogramkami" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                        <a href="#" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
                             <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/programkami.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                                <img src="/assets/gambardepan/aboutus.png" alt="/assets/gambardepan/aboutus.png" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
                             </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Program Kami</span>
-                        </a>
-                    </div>
-                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/comingsoon" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
-                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/laporandistribusi.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
-                            </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Distribusi Makan Gratis</span>
-                        </a>
-                    </div>
-                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/daftarmitra" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
-                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/mitraumkm.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
-                            </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Mitra UMKM</span>
-                        </a>
-                    </div>
-                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/comingsoon" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
-                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/laporan.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
-                            </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Laporan Distribusi </span>
-                        </a>
-                    </div>
-
-                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/daftarmenu" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
-                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/daftarmenumakanan.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
-                            </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Daftar Menu Makanan</span>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">About Us</span>
                         </a>
                     </div>
                     
+                    <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
                     <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/daftarjadimitra" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                        <a href="#" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
                             <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/daftarjadimitra.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                                <img src="/assets/gambardepan/company.png" alt="/assets/gambardepan/company.png" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
                             </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Daftar Jadi Mitra</span>
-                        </a>
-                    </div>
-
-                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/lokasipengajuan" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
-                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/lokasipengajuan.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
-                            </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Lokasi Pengajuan</span>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Company</span>
                         </a>
                     </div>
                     
+                    
+                    <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
                     <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="/comingsoon" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                        <a href="#" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
                             <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
-                                <img src="/assets/css/fe_css/images/menupilihan/sponsorkami.png" alt="icon" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                                <img src="/assets/gambardepan/produk.png" alt="/assets/gambardepan/produk.png" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
                             </div>
-                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Sponsor Kami</span>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Product</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
+                    
+                    <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="#" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/ourpartnerts.png" alt="/assets/gambardepan/ourpartnerts.png" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">F.A.Q</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
+                    <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
+                        <a href="#" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                            <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/mitra.png" alt="/assets/gambardepan/mitra.png" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
+                            </div>
+                            <span class="font-semibold text-center my-auto" style="font-weight: 600; text-align: center; font-size:14px">Our Partners</span>
                         </a>
                     </div>
                     
@@ -230,28 +213,42 @@
         
                 <div id="popular-fundrising" class="mt-8">
                     <div class="px-4 popular-link" style="display: flex; justify-content: center; align-items: center;">
-                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
-                        <img src="assets/css/fe_css/images/icons/kontributors.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
-                        Kontributors
+                      
+                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="/assets/gambardepan/aboutus.png" alt="/assets/gambardepan/aboutus.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
+                        About Us
                       </a>
-                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
-                        <img src="assets/css/fe_css/images/icons/distribusi.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
-                         Distribusi
+                      
+                        {{-- <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="/assets/gambardepan/company.png" alt="/assets/gambardepan/company.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
+                        Company
+                      </a> --}}
+                      
+                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <img src="/assets/gambardepan/produk.png" alt="/assets/gambardepan/produk.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; color:white;">
+                        Products
                       </a>
-                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
-                        <img src="assets/css/fe_css/images/icons/star.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
-                        Awwards
-                      </a>
+                      
                     </div>
                     <div class="px-4 popular-link mt-4" style="display: flex; justify-content: center; align-items: center;">
-                      <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
-                        <img src="assets/css/fe_css/images/icons/star.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
-                        Tentang Kami
-                      </a>
-                      <a href="/comingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #3b82f6; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
-                        <img src="assets/css/fe_css/images/icons/star.svg" alt="icon" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
-                        Kontak Kami
-                      </a>
+                    
+                    
+                          
+                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                            <img src="/assets/gambardepan/mitra.png" alt="/assets/gambardepan/mitra.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; color:white;">
+                            Our Partners
+                          </a>
+                    
+                          
+                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                            <img src="/assets/gambardepan/ourpartnerts.png" alt="/assets/gambardepan/ourpartnerts.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; color:white;">
+                            F.A.Q
+                          </a>
+
+                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                            <img src="/assets/gambardepan/mitra.png" alt="/assets/gambardepan/mitra.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; color:white;">
+                            Contact Us
+                          </a>
                     </div>
                   </div>
                   
