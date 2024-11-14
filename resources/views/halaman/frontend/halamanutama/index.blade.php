@@ -107,9 +107,11 @@
         <div id="best-choices" class="mt-8 -mb-6">
             <div class="px-4 flex justify-between items-center">
                 <h2 class="font-bold text-sm">Cigar Cos Indonesia</h2>
-                {{-- <a href="/daftarmitra" style="padding: 6px 12px; border-radius: 9999px; background-color: #E8E9EE; font-weight: bold; font-size:12px; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s;" class="rounded-full bg-[#E8E9EE] font-semibold text-sm">
-                    <i class="fas fa-file" style="margin-right: 5px;"></i> Daftar Mitra
-                  </a> --}}
+                <a href="#" style="padding: 6px 12px; border-radius: 9999px; background-color: #E8E9EE; font-weight: bold; font-size:12px; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s;" class="rounded-full bg-[#E8E9EE] font-semibold text-sm">
+                    <i class="fas fa-file" style="margin-right: 5px;"></i> Coeroetoe Oerang Soenda
+                  </a>
+                  
+                  
                 {{-- <a href="" class="p-[6px_12px] rounded-full bg-blue-500 hover:bg-stone-200 font-semibold text-sm text-white hover:text-stone-800">Daftar Mitra</a> --}}
             </div>
             
