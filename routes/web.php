@@ -11,7 +11,13 @@ Route::get('/', function () {
 
 Route::get('/aboutus', function () {
     return view('halaman.frontend.aboutus.index', [
-        'title' => 'Coeroetoe Oerang Soenda'
+        'title' => 'About COS'
+    ]);
+});
+
+Route::get('/company', function () {
+    return view('halaman.frontend.company.index', [
+        'title' => 'Company COS'
     ]);
 });
 
