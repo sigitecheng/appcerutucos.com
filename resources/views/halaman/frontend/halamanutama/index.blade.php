@@ -278,7 +278,7 @@
             
             </div>
         </div>
-
+        <br>
 
         <div class="px-4 flex justify-between items-center mb-4">
             <h2 class="font-bold text-sm">Company <br>Cigar Cos Indonesia</h2>
