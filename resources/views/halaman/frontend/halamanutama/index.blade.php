@@ -207,13 +207,20 @@
                     
                     <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
                 </div>
+              
+
 
                 
-                {{-- =============================================================================== --}}
-        
+                
                 <div id="popular-fundrising" class="mt-8">
+                    {{-- =============================================================================== --}}
+                    
+               
                     <div class="px-4 popular-link" style="display: flex; justify-content: center; align-items: center;">
-                      
+                        
+                        
+
+
                         <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
                         <img src="/assets/gambardepan/aboutus.png" alt="/assets/gambardepan/aboutus.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem;">
                         About Us

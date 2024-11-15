@@ -15,7 +15,7 @@
             {{-- @if(auth()->check() && auth()->user()->is_admin === 'super_admin')  --}}
         <a href="/admindashboard" class="flex items-center justify-center w-[50px] h-[50px] p-[13px_15px]">
             <div style="display: flex; align-items: center; justify-content: center; overflow: hidden; font-size:100px">
-                <img src="/assets/css/fe_css/images/tentangkami/androiddashboardadmin.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="/assets/gambardepan/company.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </a>
     {{-- @else --}}
@@ -26,28 +26,28 @@
       
         <a href="/" class="flex items-center justify-center w-[50px] h-[50px] p-[13px_15px]">
             <div style=" solf display: flex; align-items: center; justify-content: center; overflow: hidden; font-size:100px">
-                <img src="/assets/css/fe_css/images/icons/menuandroid/androidhome.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="/assets/gambardepan/produk.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </a>
       
         <a href="/comingsoon" class="flex items-center justify-center w-[50px] h-[50px] p-[13px_15px]">
             <div style="display: flex; align-items: center; justify-content: center; overflow: hidden; font-size:100px">
-                <img src="/assets/css/fe_css/images/icons/menuandroid/androiddonasi.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="/assets/gambardepan/aboutus.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </a>
     
         <a href="/comingsoon" class="flex items-center justify-center w-[50px] h-[50px] p-[13px_15px]">
             <div style="  display: flex; align-items: center; justify-content: center; overflow: hidden; font-size:100px">
-                <img src="/assets/css/fe_css/images/icons/menuandroid/icondonasi.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="/assets/gambardepan/ourpartnerts.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </a>
     
         <a href="/pengaturan" class="flex items-center justify-center w-[50px] h-[50px] p-[13px_15px]">
             <div style="display: flex; align-items: center; justify-content: center; overflow: hidden; font-size:100px">
-                <img src="/assets/css/fe_css/images/icons/menuandroid/androidsettings.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="/assets/gambardepan/mitra.png" alt="icon" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </a>
-      
+{{--       
         
         @if(auth()->check()) 
         
@@ -65,7 +65,7 @@
             </div>
         </a>
         
-        @endif
+        @endif --}}
     
         
       
