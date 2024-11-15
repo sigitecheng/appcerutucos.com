@@ -102,45 +102,183 @@
 </a>
 
 
-        {{-- ========================================= --}}
-
+        {{-- ===================================================================================================== --}}
         <div id="best-choices" class="mt-8 -mb-6">
             <div class="px-4 flex justify-between items-center">
-                <h2 class="font-bold text-sm">Cigar Cos Indonesia</h2>
-                <a href="#" style="padding: 6px 12px; border-radius: 9999px; background-color: #E8E9EE; font-weight: bold; font-size:12px; text-decoration: none; color: #000000; transition: background-color 0.3s, color 0.3s;" class="rounded-full bg-[#E8E9EE] font-semibold text-sm">
-                    <i class="fas fa-file" style="margin-right: 5px;"></i> Coeroetoe Oerang Soenda
-                  </a>
-                  
-                  
-                {{-- <a href="" class="p-[6px_12px] rounded-full bg-blue-500 hover:bg-stone-200 font-semibold text-sm text-white hover:text-stone-800">Daftar Mitra</a> --}}
+                <h2 class="font-bold text-lg">Cos Cigar Indonesia <br></h2>
+                <a href="" class="p-[6px_12px] rounded-full bg-[#E8E9EE] font-semibold text-sm">Coeroetoe Oerang Soenda</a>
             </div>
-            <div class="main-carousel" style="margin-top: 14px; display: flex; flex-direction: row; overflow-x: auto;">
-                <div class="carousel-item" style="padding: 0 2px;">
-                    <div class="carousel-content" style="border: 1px solid #E8E9EE; padding: 14px; width: 208px; border-radius: 1rem;">
-                        <a href="#">
-                            <div class="rounded-2xl w-full h-[120px] flex shrink-0">
-                                <!-- Gambar Produk -->
-                                <img src="assets/gambardepan/dokumentasi/1.jpeg" 
-                                     class="assets/gambardepan/dokumentasi/1.jpeg   " 
-                                     alt="Gambar Produk">
+            <div class="main-carousel mt-[14px]">
+            
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/3.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
-                            <div class="flex flex-col gap-[6px]">
-                                <p class="text-xs leading-[18px]">Contoh Konten</p>
-                            </div>
-                            <progress id="fund" value="32" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress>
                         </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Cos Grand Robusto</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ 100,00</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
                     </div>
                 </div>
-            </div>
             
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/costorpedo.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Cos Torpedo</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ 100,00</span></p>
+                        </div>
 
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
             
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/1.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
+            
+            
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/5.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
+            
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/6.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
+            
+            
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/7.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
+            
+            
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/8.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
+            
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/9.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
+            
+            
+                <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
+                    <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
+                        <a href="details.html">
+                            <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
+                                <img src="/assets/gambardepan/dokumentasi/10.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
+                            </div>
+                        </a>
+                        <div class="flex flex-col gap-[6px]">
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
+                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                        </div>
+
+                        {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
+                    
+                    </div>
+                </div>
+            
+            </div>
         </div>
 
-        {{-- ======================================================================================== --}}
-<br><br>        
-
-        {{-- ===================================================================================================== --}}
 
         <div class="px-4 flex justify-between items-center mb-4">
             <h2 class="font-bold text-sm">Company <br>Cigar Cos Indonesia</h2>
