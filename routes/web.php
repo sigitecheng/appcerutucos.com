@@ -9,6 +9,12 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/aboutus', function () {
+    return view('halaman.frontend.aboutus.index', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

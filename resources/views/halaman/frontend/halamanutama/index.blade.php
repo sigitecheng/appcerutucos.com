@@ -9,7 +9,7 @@
             
             <nav class="pt-5 px-3 flex justify-between items-center">
              
-             <a href="/tentangkami">
+             <a href="/aboutus">
                  <div class="flex items-center gap-[2px]">
                      <div class="w-10 h-10 flex shrink-0">
                         <img width="80px;" height="80px;" src="/assets/gambardepan/iconcos2.png" alt="/assets/gambardepan/iconcos2.png">
