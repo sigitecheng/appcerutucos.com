@@ -96,11 +96,15 @@
             {{-- @foreach ($data_tentangkami as $data) --}}
                 
             <a href="#" class="card">
+                        
+                    <div style="margin-top:10px;" class="w-[200px] h-[200px] flex shrink-0 rounded-2xl overflow-hidden">
+                        <img width="50%" src="/assets/gambardepan/sandiagauno.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/sandiagauno.jpeg">
+                    </div>
+
+
+
 
                 <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
-                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
-                    </div> --}}
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
                         <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>  About Coeroetoe Oerang Soenda </p>
                         <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
