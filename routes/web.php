@@ -21,6 +21,12 @@ Route::get('/company', function () {
     ]);
 });
 
+Route::get('/produk', function () {
+    return view('halaman.frontend.produk.index', [
+        'title' => 'Products COS'
+    ]);
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

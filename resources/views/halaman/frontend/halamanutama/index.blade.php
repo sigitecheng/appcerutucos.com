@@ -313,7 +313,7 @@
                     
                     <!-- Tambahkan div lainnya di sini dengan gaya yang sama -->
                     <div class="px-4 first-of-type:pl-8 last-of-type:pr-8 ml-4 mr-4" style="margin-left: 8px; margin-right: 8px; flex: 0 0 auto; width: 135px;">
-                        <a href="#" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
+                        <a href="/produk" class="fundrising-card rounded-[30px] w-[135px] min-h-[160px] flex flex-col items-center gap-3 p-5 border border-[#E8E9EE]" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 15px; border: 1px solid #E8E9EE; border-radius: 30px; min-height: 160px; width: 135px;">
                             <div class="w-[60px] h-[60px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/produk.png" alt="/assets/gambardepan/produk.png" style="width: 60px; height: 60px; flex-shrink: 0; overflow: hidden;">
                             </div>
@@ -369,7 +369,7 @@
                         Company
                       </a> --}}
                       
-                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <a href="/produk" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
                         <img src="/assets/gambardepan/produk.png" alt="/assets/gambardepan/produk.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; color:white;">
                         Products
                       </a>

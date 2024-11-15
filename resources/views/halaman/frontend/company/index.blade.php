@@ -95,7 +95,7 @@
 
             {{-- @foreach ($data_tentangkami as $data) --}}
             
-            <div style="margin-top:10px;" class="w-full h-[750px] flex shrink-0 rounded-2xl overflow-hidden">
+            <div style="margin-top:10px;" class="w-full h-[1200px] flex shrink-0 rounded-2xl overflow-hidden">
                 <iframe width="100%" height="100%" src="/assets/video/cerutu.mp4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
