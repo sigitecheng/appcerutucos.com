@@ -70,11 +70,11 @@
         
         
            <div class="px-4 flex justify-center items-center mt-[5px]" style="display: flex; justify-content: center; align-items: center; margin-top: 5px;">
-               <h2 class="font-bold text-sm text-stone-800 border-spacing-2" style="font-weight: 700; font-size: 0.875rem; color: #4B5563;">PT. Bumi Duta Niaga</h2>
+               <h2 class="font-bold text-sm text-stone-800 border-spacing-2" style="font-weight: 700; font-size: 0.875rem; color: #4B5563;">Yayasan Dangiang Sumbi Jatining Asih </h2>
            </div>
        
            <a href="#" style="display: block; text-align: center;">
-               <h6 class="text-center font-semibold text-sm text-stone-600" style="text-align: center; font-weight: 600; font-size: 0.875rem; color: #4B5563;"> BDN @2024 </h6>
+               <h6 class="text-center font-semibold text-sm text-stone-600" style="text-align: center; font-weight: 600; font-size: 0.875rem; color: #4B5563;"> DSJA @2024 </h6>
                <br>
                {{-- <h6 class="text-center font-semibold text-sm text-stone-600" style="text-align: center; font-weight: 600; font-size: 0.875rem; color: #4B5563;">
                 Developed By <a href="https://wa.me/081321455855" target="_blank">sarigit.com</a>

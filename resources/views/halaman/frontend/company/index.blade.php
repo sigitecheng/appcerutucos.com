@@ -105,7 +105,7 @@
                 <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
                         <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
-                            <i class="fas fa-building"></i> Company PT. Bumi Duta Niaga
+                            <i class="fas fa-building"></i> Foundations Of Dangiang Sumbi Jatining Asih
                         </p>
                         <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
                             Cos Coeroetoe Oerang Soenda cigars are proudly produced by PT. Bumi Duta Niaga, a company with a deep commitment to the art of cigar making. Specializing in premium cigars, PT. Bumi Duta Niaga combines traditional techniques with the finest Indonesian tobacco to create a truly distinctive product.
