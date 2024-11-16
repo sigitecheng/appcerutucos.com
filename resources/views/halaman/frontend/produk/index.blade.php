@@ -100,7 +100,7 @@
             </div>
              --}}
 
-             <a href="#" class="card">
+             <a href="/produk1" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->

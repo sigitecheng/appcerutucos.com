@@ -27,6 +27,27 @@ Route::get('/produk', function () {
     ]);
 });
 
+Route::get('/faq', function () {
+    return view('halaman.frontend.faq.index', [
+        'title' => 'F.A.Q'
+    ]);
+});
+
+// ==================================================================
+
+Route::get('/produk1', function () {
+    return view('halaman.frontend.produk.details.1', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+
+Route::get('/coomingsoon', function () {
+    return view('halaman.coomingsoon', [
+        'title' => 'Cooming Soon'
+    ]);
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

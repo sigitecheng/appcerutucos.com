@@ -56,7 +56,7 @@
                             <h1 class="font-semibold leading-[36px] text-white text-center" style="font-size: 18px;">Selamat Datang ! <span class="font-bold" style="color:white"> {{ auth()->user()->name }}</span></h1>
                         @else
                             <!-- Jika pengguna belum login -->
-                            <h1 class="font-extrabold leading-[36px] text-white text-center" style="font-size: 18px;">Company Cos <br></h1>
+                            <h1 class="font-extrabold leading-[36px] text-white text-center" style="font-size: 18px;">F.A.Q<br></h1>
                         @endif
              
                  @if(auth()->check()) 
@@ -94,20 +94,21 @@
         <div class="flex flex-col gap-4 px-4">
 
             {{-- @foreach ($data_tentangkami as $data) --}}
-            <div style="margin-top:10px;" class="w-full h-full flex shrink-0 rounded-2xl overflow-hidden">
-                <iframe width="100%" height="500" src="/assets/video/cerutu.mp4?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            
-            
+                
             <a href="#" class="card">
+{{--                         
+                    <div style="margin-top:10px;" class="w-[200px] h-[200px] flex shrink-0 rounded-2xl overflow-hidden">
+                        <img width="50%" src="/assets/gambardepan/sandiagauno.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/sandiagauno.jpeg">
+                    </div> --}}
+
 
 
 
                 <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>   Company PT. Bumi Duta Niaga </p>
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>1. What is Cos Coeroetoe Oerang Soenda cigar? </p>
                         <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
-                            Cos Coeroetoe Oerang Soenda cigars are proudly produced by PT. Bumi Duta Niaga, a company with a deep commitment to the art of cigar making. Specializing in premium cigars, PT. Bumi Duta Niaga combines traditional techniques with the finest Indonesian tobacco to create a truly distinctive product.
+                            Cos Coeroetoe Oerang Soenda is a premium cigar made from high-quality tobacco. With a blend of local tobacco and a meticulous production process, this cigar offers a distinctive smoking experience with a unique aroma and flavor, celebrating Indonesian tobacco tradition and culture.
                         </p>
                      
                     </div>
@@ -118,9 +119,10 @@
                         <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
                     </div> --}}
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>   Expertise in Tobacco Cultivation and Production </p>
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>2. Where is the tobacco used in this cigar sourced from?</p>
                         <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
-                            The company has years of experience in tobacco cultivation and cigar production, ensuring that each cigar is crafted with exceptional attention to detail. From selecting the best tobacco leaves to the final rolling process, every step is done with precision to deliver an authentic and high-quality smoking experience.
+                        
+                            The tobacco used in Cos Coeroetoe Oerang Soenda cigars comes from Indonesia’s best tobacco-growing regions, known for producing top-quality leaves. We use carefully selected tobacco that is naturally processed to ensure an authentic and unique flavor profile.
                         </p>
                      
                     </div>
@@ -131,14 +133,55 @@
                         <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
                     </div> --}}
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>  Commitment to Quality and Craftsmanship</p>
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>3. What makes Cos Coeroetoe Oerang Soenda cigar different from other cigars?</p>
                         <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
-                            At PT. Bumi Duta Niaga, we are dedicated to upholding the highest standards of craftsmanship, so every Cos Coeroetoe Oerang Soenda cigar reflects the rich heritage of Indonesian tobacco and the passion we put into every product.
+                            What sets Cos Coeroetoe Oerang Soenda apart is its unique taste, blending local tobacco traditions with proven craftsmanship. We focus on using natural, high-quality tobacco and a fermentation process that preserves the freshness and strength of the cigar’s flavor.
                         </p>
                      
                     </div>
                 </div>
                 
+                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
+                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
+                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
+                    </div> --}}
+                    <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>4. How should I store the cigars to maintain their quality? </p>
+                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
+
+                            To keep your cigars fresh and preserve their quality, store them in a humidor with humidity levels between 65-70% and temperatures ranging from 18-21°C (64-70°F). Avoid exposure to direct sunlight or extreme temperatures to prevent damage to the tobacco.
+                        </p>
+                     
+                    </div>
+                </div>
+                
+                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
+                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
+                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
+                    </div> --}}
+                    <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>5. Is Cos Coeroetoe Oerang Soenda cigar suitable for beginners? </p>
+                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
+
+                            Cos Coeroetoe Oerang Soenda is designed to offer a unique and enjoyable smoking experience. For beginners, we recommend starting with lighter cigars and gradually exploring the local tobacco flavors. However, for more experienced smokers, this cigar offers a deep and satisfying flavor profile.
+                        </p>
+                     
+                    </div>
+                </div>
+                
+                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
+                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
+                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
+                    </div> --}}
+                    <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>6. Where can I purchase Cos Coeroetoe Oerang Soenda cigars?</p>
+                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
+
+                            You can purchase Cos Coeroetoe Oerang Soenda cigars by contacting us through the details below, both offline and online. Be sure to buy from trusted sources to ensure you receive the authentic, high-quality product.
+                        </p>
+                     
+                    </div>
+                </div>
 
             </a>
             
