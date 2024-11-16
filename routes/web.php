@@ -41,6 +41,60 @@ Route::get('/produk1', function () {
     ]);
 });
 
+Route::get('/produk2', function () {
+    return view('halaman.frontend.produk.details.2', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk3', function () {
+    return view('halaman.frontend.produk.details.3', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk4', function () {
+    return view('halaman.frontend.produk.details.4', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk5', function () {
+    return view('halaman.frontend.produk.details.5', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk6', function () {
+    return view('halaman.frontend.produk.details.6', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk7', function () {
+    return view('halaman.frontend.produk.details.7', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk8', function () {
+    return view('halaman.frontend.produk.details.8', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk9', function () {
+    return view('halaman.frontend.produk.details.9', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
+Route::get('/produk10', function () {
+    return view('halaman.frontend.produk.details.10', [
+        'title' => 'Coeroetoe Oerang Soenda'
+    ]);
+});
+
 
 Route::get('/coomingsoon', function () {
     return view('halaman.coomingsoon', [

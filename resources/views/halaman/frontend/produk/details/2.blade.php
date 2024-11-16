@@ -98,7 +98,7 @@
             <a href="#" class="card">
                         
                     <div style="margin-top:10px;" class="w-[200px] h-[200px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img width="50%" src="/assets/gambardepan/dokumentasi/3.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/3.jpeg">
+                        <img width="50%" src="/assets/gambardepan/dokumentasi/costorpedo.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/costorpedo.jpeg">
                     </div>
 
 
@@ -108,23 +108,23 @@
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
                         
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-cigar" style="margin-right: 8px;"></i> Produk : <span style="font-size: 14px; color: white;">Cos Grand Robusto</span>
+                            <i class="fas fa-cigar" style="margin-right: 8px;"></i> Produk : <span style="font-size: 14px; color: white;">Cos Grand Torpedo</span>
                         </p>
                         <br>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-ring" style="margin-right: 8px;"></i> Ring Gauge : <span style="font-size: 14px; color: white;">50</span>
+                            <i class="fas fa-ring" style="margin-right: 8px;"></i> Ring Gauge : <span style="font-size: 14px; color: white;">54</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-circle" style="margin-right: 8px;"></i> Ring Diameter : <span style="font-size: 14px; color: white;">20 mm</span>
+                            <i class="fas fa-circle" style="margin-right: 8px;"></i> Ring Diameter : <span style="font-size: 14px; color: white;">22 mm</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-ruler" style="margin-right: 8px;"></i> Length : <span style="font-size: 14px; color: white;">150 mm</span>
+                            <i class="fas fa-ruler" style="margin-right: 8px;"></i> Length : <span style="font-size: 14px; color: white;">145 mm</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-shapes" style="margin-right: 8px;"></i> Cigar Shape : <span style="font-size: 14px; color: white;">Parejo</span>
+                            <i class="fas fa-shapes" style="margin-right: 8px;"></i> Cigar Shape : <span style="font-size: 14px; color: white;">Piramide</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-clock" style="margin-right: 8px;"></i> Time Consumption : <span style="font-size: 14px; color: white;">60 Minutes</span>
+                            <i class="fas fa-clock" style="margin-right: 8px;"></i> Time Consumption : <span style="font-size: 14px; color: white;">50 Minutes</span>
                         </p>
                         
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">

@@ -102,44 +102,39 @@
             <a href="#" class="card">
 
 
-
-                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
+                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>   Company PT. Bumi Duta Niaga </p>
-                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                            <i class="fas fa-building"></i> Company PT. Bumi Duta Niaga
+                        </p>
+                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
                             Cos Coeroetoe Oerang Soenda cigars are proudly produced by PT. Bumi Duta Niaga, a company with a deep commitment to the art of cigar making. Specializing in premium cigars, PT. Bumi Duta Niaga combines traditional techniques with the finest Indonesian tobacco to create a truly distinctive product.
                         </p>
-                     
                     </div>
                 </div>
-
-                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
-                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
-                    </div> --}}
+                
+                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>   Expertise in Tobacco Cultivation and Production </p>
-                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                            <i class="fas fa-leaf"></i> Expertise in Tobacco Cultivation and Production
+                        </p>
+                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
                             The company has years of experience in tobacco cultivation and cigar production, ensuring that each cigar is crafted with exceptional attention to detail. From selecting the best tobacco leaves to the final rolling process, every step is done with precision to deliver an authentic and high-quality smoking experience.
                         </p>
-                     
                     </div>
                 </div>
                 
-                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
-                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
-                    </div> --}}
+                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>  Commitment to Quality and Craftsmanship</p>
-                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
+                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                            <i class="fas fa-award"></i> Commitment to Quality and Craftsmanship
+                        </p>
+                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
                             At PT. Bumi Duta Niaga, we are dedicated to upholding the highest standards of craftsmanship, so every Cos Coeroetoe Oerang Soenda cigar reflects the rich heritage of Indonesian tobacco and the passion we put into every product.
                         </p>
-                     
                     </div>
                 </div>
                 
-
             </a>
             
          

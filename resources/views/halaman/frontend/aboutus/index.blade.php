@@ -104,57 +104,50 @@
 
 
 
-                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
-                    <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>  About Coeroetoe Oerang Soenda </p>
-                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
-                            Coeroetoe Oerang Soenda is a premium tobacco cigar brand that embodies the rich culture and traditional tobacco craftsmanship of Indonesia, particularly from the Sundanese region. This cigar uses carefully selected tobacco grown in the fertile lands of Indonesia, renowned for its exceptional quality. The production process involves traditional skills passed down through generations, ensuring that each cigar has a distinctive taste.
-                        </p>
-                     
+                    <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
+                        <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
+                            <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                <i class="fas fa-info-circle"></i> About Coeroetoe Oerang Soenda
+                            </p>
+                            <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                Coeroetoe Oerang Soenda is a premium tobacco cigar brand that embodies the rich culture and traditional tobacco craftsmanship of Indonesia, particularly from the Sundanese region. This cigar uses carefully selected tobacco grown in the fertile lands of Indonesia, renowned for its exceptional quality. The production process involves traditional skills passed down through generations, ensuring that each cigar has a distinctive taste.
+                            </p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
-                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
-                    </div> --}}
-                    <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>  Raw Materials and Production Process    </p>
-                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
-                            The "Coeroetoe Oerang Soenda" cigar uses tobacco grown organically in some of Indonesia’s best tobacco-producing regions, such as West Java. The tobacco is meticulously selected and processed using a natural fermentation method to preserve its authentic flavor and aroma. The cigar’s wrapper is made from carefully chosen tobacco leaves to ensure even burning and a smooth smoking experience.
-                        </p>
-                     
+                    
+                    <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
+                        <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
+                            <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                <i class="fas fa-seedling"></i> Raw Materials and Production Process
+                            </p>
+                            <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                The "Coeroetoe Oerang Soenda" cigar uses tobacco grown organically in some of Indonesia’s best tobacco-producing regions, such as West Java. The tobacco is meticulously selected and processed using a natural fermentation method to preserve its authentic flavor and aroma. The cigar’s wrapper is made from carefully chosen tobacco leaves to ensure even burning and a smooth smoking experience.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
-                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
-                    </div> --}}
-                    <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>  Flavor and Aroma </p>
-                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
-                            The Coeroetoe Oerang Soenda cigar offers a rich and complex flavor, with warm, smooth tobacco notes dominating the profile. Its burn produces a distinctive aroma with a touch of spice and a slight sweetness, which comes from the unique blend of local tobaccos. Each puff provides a satisfying sensation for cigar enthusiasts seeking a different smoking experience from international brands.
-                        </p>
-                     
+                    
+                    <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
+                        <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
+                            <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                <i class="fas fa-seedling"></i> Flavor and Aroma
+                            </p>
+                            <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                The Coeroetoe Oerang Soenda cigar offers a rich and complex flavor, with warm, smooth tobacco notes dominating the profile. Its burn produces a distinctive aroma with a touch of spice and a slight sweetness, which comes from the unique blend of local tobaccos. Each puff provides a satisfying sensation for cigar enthusiasts seeking a different smoking experience from international brands.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
-                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
-                    </div> --}}
-                    <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>  Distinctiveness of Indonesian Cigars </p>
-                        <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5"><i class="fas fa-home"></i>
-
-                            Indonesian cigars, especially the Coeroetoe Oerang Soenda brand, bring the authenticity of local culture into the global cigar scene. With tobacco of world-class quality, this cigar not only appeals to local tobacco aficionados but also to cigar collectors abroad looking for a new and unique flavor experience.
-                        </p>
-                     
+                    
+                    <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
+                        <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
+                            <p style="color: black; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                <i class="fas fa-globe"></i> Distinctiveness of Indonesian Cigars
+                            </p>
+                            <p style="text-align: justify; font-size:14px;" class="font-semibold text-white border-spacing-5">
+                                Indonesian cigars, especially the Coeroetoe Oerang Soenda brand, bring the authenticity of local culture into the global cigar scene. With tobacco of world-class quality, this cigar not only appeals to local tobacco aficionados but also to cigar collectors abroad looking for a new and unique flavor experience.
+                            </p>
+                        </div>
                     </div>
-                </div>
-
-            </a>
+                                </a>
             
          
             {{-- @endforeach --}}

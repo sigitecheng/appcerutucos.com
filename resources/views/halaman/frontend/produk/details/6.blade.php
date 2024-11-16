@@ -98,7 +98,7 @@
             <a href="#" class="card">
                         
                     <div style="margin-top:10px;" class="w-[200px] h-[200px] flex shrink-0 rounded-2xl overflow-hidden">
-                        <img width="50%" src="/assets/gambardepan/dokumentasi/3.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/3.jpeg">
+                        <img width="50%" src="/assets/gambardepan/dokumentasi/7.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/7.jpeg">
                     </div>
 
 
@@ -108,53 +108,54 @@
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
                         
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-cigar" style="margin-right: 8px;"></i> Produk : <span style="font-size: 14px; color: white;">Cos Grand Robusto</span>
+                            <i class="fas fa-cigar" style="margin-right: 8px;"></i> Produk : <span style="font-size: 14px; color: white;">Cooming Soon</span>
                         </p>
                         <br>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-ring" style="margin-right: 8px;"></i> Ring Gauge : <span style="font-size: 14px; color: white;">50</span>
+                            <i class="fas fa-ring" style="margin-right: 8px;"></i> Ring Gauge : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-circle" style="margin-right: 8px;"></i> Ring Diameter : <span style="font-size: 14px; color: white;">20 mm</span>
+                            <i class="fas fa-circle" style="margin-right: 8px;"></i> Ring Diameter : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-ruler" style="margin-right: 8px;"></i> Length : <span style="font-size: 14px; color: white;">150 mm</span>
+                            <i class="fas fa-ruler" style="margin-right: 8px;"></i> Length : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-shapes" style="margin-right: 8px;"></i> Cigar Shape : <span style="font-size: 14px; color: white;">Parejo</span>
+                            <i class="fas fa-shapes" style="margin-right: 8px;"></i> Cigar Shape : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-clock" style="margin-right: 8px;"></i> Time Consumption : <span style="font-size: 14px; color: white;">60 Minutes</span>
+                            <i class="fas fa-clock" style="margin-right: 8px;"></i> Time Consumption : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-tint" style="margin-right: 8px;"></i> Taste : <span style="font-size: 14px; color: white;">Cuban Taste</span>
+                            <i class="fas fa-tint" style="margin-right: 8px;"></i> Taste : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-bolt" style="margin-right: 8px;"></i> Strength : <span style="font-size: 14px; color: white;">7/9</span>
+                            <i class="fas fa-bolt" style="margin-right: 8px;"></i> Strength : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-leaf" style="margin-right: 8px;"></i> Wrapper : <span style="font-size: 14px; color: white;">Besuki Naoogst</span>
+                            <i class="fas fa-leaf" style="margin-right: 8px;"></i> Wrapper : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-puzzle-piece" style="margin-right: 8px;"></i> Blinder : <span style="font-size: 14px; color: white;">Javano</span>
+                            <i class="fas fa-puzzle-piece" style="margin-right: 8px;"></i> Blinder : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-puzzle-piece" style="margin-right: 8px;"></i> Filler : <span style="font-size: 14px; color: white;">Javano</span>
+                            <i class="fas fa-puzzle-piece" style="margin-right: 8px;"></i> Filler : <span style="font-size: 14px; color: white;">-</span>
                         </p>
                         <p class="product-detail" style="color: orange; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-dollar-sign" style="margin-right: 8px;"></i> Price : <span style="font-size: 14px; color: orange;">$100 / IDR Rp. 1.500.000,-</span>
+                            <i class="fas fa-dollar-sign" style="margin-right: 8px;"></i> Price : <span style="font-size: 14px; color: orange;">-</span>
                         </p>
                         
                     
                      
                     </div>
                 </div>
-                <div class="w-full flex flex-col items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
+
+                {{-- <div class="w-full flex flex-col items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;"> --}}
                     {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
                         <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
                     </div> --}}
-                    <div class="w-full flex justify-center">
+                    {{-- <div class="w-full flex justify-center">
                         <a href="https://wa.me/6281321455855" target="_blank" style="width: 100%; max-width: 400px;">
                             <button class="btn btn-success" style="border-radius: 10px; width: 100%; background-color: #28a745; color: white; text-align: center; padding: 10px; display: flex; align-items: center; justify-content: center; gap: 10px;">
                                 <i class="fas fa-shopping-cart"></i>
@@ -162,7 +163,7 @@
                             </button>
                         </a>
                     </div>
-                </div>
+                </div> --}}
                 
             </a>
             

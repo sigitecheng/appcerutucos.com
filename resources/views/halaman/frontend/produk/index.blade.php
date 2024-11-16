@@ -119,6 +119,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Length: <span style="font-size: 14px; color: black;">150 mm</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Cigar Shape: <span style="font-size: 14px; color: black;">Parejo</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Time Consumption: <span style="font-size: 14px; color: black;">60 Minutes</span></p>
+                    
                     </div>
 
                     <!-- Kolom Kanan (Informasi Tambahan) -->
@@ -129,6 +130,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">Javano</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">Javano</span></p>
                         <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">$100 / IDR Rp. 1.500.000,-</span></p>
+                    
                     </div>
                 </div>
             </div>
@@ -136,7 +138,7 @@
     </div>
 </a>
 
-             <a href="#" class="card">
+             <a href="/produk2" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -172,7 +174,7 @@
     </div>
 </a>
             
-<a href="#" class="card">
+<a href="/produk3" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -208,7 +210,7 @@
     </div>
 </a>
             
-<a href="#" class="card">
+<a href="/produk4" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -244,7 +246,7 @@
     </div>
 </a>
             
-<a href="#" class="card">
+<a href="/produk5" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -280,7 +282,7 @@
     </div>
 </a>
             
-<a href="#" class="card">
+<a href="/produk6" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -318,7 +320,7 @@
 
             
             
-<a href="#" class="card">
+<a href="/produk7" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -357,7 +359,7 @@
             
             
             
-<a href="#" class="card">
+<a href="/produk8" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -394,7 +396,7 @@
 </a>
             
             
-<a href="#" class="card">
+<a href="/produk9" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->
@@ -430,7 +432,7 @@
     </div>
 </a>
             
-<a href="#" class="card">
+<a href="/produk10" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
         <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
             <!-- Gambar di Kiri -->

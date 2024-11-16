@@ -110,9 +110,10 @@
             </div>
             <div class="main-carousel mt-[14px]">
             
+                
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk1">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/3.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -127,10 +128,11 @@
                     
                     </div>
                 </div>
+
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk2">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/costorpedo.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -148,7 +150,7 @@
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk3">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/1.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -167,7 +169,7 @@
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk4">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/5.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -185,7 +187,7 @@
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk5">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/6.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -204,7 +206,7 @@
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk6">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/7.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -223,7 +225,7 @@
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk7">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/8.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -241,7 +243,7 @@
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk8">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/9.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -260,7 +262,7 @@
             
                 <div class="px-2 first-of-type:pl-4 last-of-type:pr-4 mb-6">
                     <div class="flex flex-col gap-[14px] rounded-2xl border border-[#E8E9EE] p-[14px] w-[208px]">
-                        <a href="details.html">
+                        <a href="/produk9">
                             <div class="rounded-2xl w-full h-[120px] flex shrink-0 overflow-hidden">
                                 <img src="/assets/gambardepan/dokumentasi/10.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/1.jpeg">
                             </div>
@@ -379,13 +381,13 @@
                     
                     
                           
-                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <a href="/coomingsoon" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
                             <img src="/assets/gambardepan/mitra.png" alt="/assets/gambardepan/mitra.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; color:white;">
                             Our Partners
                           </a>
                     
                           
-                        <a href="#" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
+                        <a href="/faq" style="display: flex; align-items: center; padding: 4px 12px; margin: 0 12px 12px 0; border-radius: 9999px; background-color: #6B4226; font-weight: bold; font-size: 0.875rem; color: #fff; transition: background-color 0.3s, color 0.3s; font-size:12px">
                             <img src="/assets/gambardepan/ourpartnerts.png" alt="/assets/gambardepan/ourpartnerts.png" style="width: 1.25rem; height: 1.25rem; margin-right: 0.5rem; color:white;">
                             F.A.Q
                           </a>
