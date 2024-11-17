@@ -147,9 +147,9 @@
                             <span style="font-size: 14px; color: white;">Glass Tubos</span>
                         </p>
                             
-                        <p class="product-detail" style="color: orange; font-size: 14px; font-weight: 600; line-height: 18px;">
+                        {{-- <p class="product-detail" style="color: orange; font-size: 14px; font-weight: 600; line-height: 18px;">
                             <i class="fas fa-dollar-sign" style="margin-right: 8px;"></i> Price : <span style="font-size: 14px; color: orange;">-</span>
-                        </p>
+                        </p> --}}
                         
                     
                      
