@@ -162,9 +162,9 @@
                 </div>
 
                 <div class="w-full flex flex-col items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513); margin-top: 10px;">
-                    <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
+                    {{-- <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden">
                         <img src="/assets/css/fe_css/images/logohaiucare/logohaiucareindonesia.png" class="w-full h-full object-cover" alt="thumbnail">
-                    </div>
+                    </div> --}}
                     <div class="w-full flex justify-center">
                         <a href="https://wa.me/6281321455855" target="_blank" style="width: 100%; max-width: 400px;">
                             <button class="btn btn-success" style="border-radius: 10px; width: 100%; background-color: #28a745; color: white; text-align: center; padding: 10px; display: flex; align-items: center; justify-content: center; gap: 10px;">
