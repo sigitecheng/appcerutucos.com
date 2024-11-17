@@ -159,7 +159,7 @@
                             </div>
                         </a> 
                         <div class="flex flex-col gap-[6px]">
-                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Cos Minion Cigar HT BOX</a>
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Cos Minion Cigar HT Box</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
                             {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
