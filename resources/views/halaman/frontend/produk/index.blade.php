@@ -189,22 +189,24 @@
                 <div class="flex gap-4" style="display: flex; flex-wrap: wrap;">
                     <!-- Kolom Kiri (Informasi Utama) -->
                     <div class="flex-1">
-                        <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">Produk: <span style="font-size: 14px; color: white;">Comming Soon</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Gauge: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Diameter: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Length: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Cigar Shape: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Time: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">Produk: <span style="font-size: 14px; color: white;">Cos Minion Cigar HT Box</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Gauge: <span style="font-size: 14px; color: black;">50</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Diameter: <span style="font-size: 14px; color: black;">20 mm</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Length: <span style="font-size: 14px; color: black;">50 mm</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Cigar Shape: <span style="font-size: 14px; color: black;">Parejo</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Time: <span style="font-size: 14px; color: black;">15 Minutes</span></p>
                     </div>
 
                     <!-- Kolom Kanan (Informasi Tambahan) -->
                     <div class="flex-1">
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Taste: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Strength: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Taste: <span style="font-size: 14px; color: black;">Cuban Taste</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Strength: <span style="font-size: 14px; color: black;">7/9</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">Besuki Naoogst</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">Javano</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">Javano</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Packaging: <span style="font-size: 14px; color: black;">Glass Tubos</span></p>
+
                     </div>
                 </div>
             </div>
