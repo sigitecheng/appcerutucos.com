@@ -123,7 +123,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Cos Grand Robusto</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ 100,00</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ 100,00</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -142,7 +142,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Cos Torpedo</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ 100,00</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ 100,00</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -159,9 +159,9 @@
                             </div>
                         </a> 
                         <div class="flex flex-col gap-[6px]">
-                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
+                            <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Cos Minion Cigar HT BOX</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -179,7 +179,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -198,7 +198,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -216,7 +216,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -235,7 +235,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -255,7 +255,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
@@ -274,7 +274,7 @@
                         <div class="flex flex-col gap-[6px]">
                             <a href="#" class="font-bold line-clamp-2 hover:line-clamp-none">Comming Soon</a>
                             <p class="text-xs leading-[18px]">Specification: <span class="font-bold text-[#000000]">Klik Me</span></p>
-                            <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p>
+                            {{-- <p class="text-xs leading-[18px]">Price : <span class="font-bold text-[#FF7815]">$ -,</span></p> --}}
                         </div>
 
                         {{-- <progress style="color: #000000" id="fund" value="100" max="100" class="w-full h-[6px] rounded-full overflow-hidden"></progress> --}}
