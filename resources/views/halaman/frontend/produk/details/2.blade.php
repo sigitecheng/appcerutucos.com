@@ -142,9 +142,9 @@
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
                             <i class="fas fa-puzzle-piece" style="margin-right: 8px;"></i> Filler : <span style="font-size: 14px; color: white;">Javano</span>
                         </p>
-                        <p class="product-detail" style="color: orange; font-size: 14px; font-weight: 600; line-height: 18px;">
+                        {{-- <p class="product-detail" style="color: orange; font-size: 14px; font-weight: 600; line-height: 18px;">
                             <i class="fas fa-dollar-sign" style="margin-right: 8px;"></i> Price : <span style="font-size: 14px; color: orange;">$100 / IDR Rp. 1.500.000,-</span>
-                        </p>
+                        </p> --}}
                         
                     
                      

@@ -173,6 +173,46 @@
         </div>
     </div>
 </a>
+
+
+            
+<a href="/produk7" class="card">
+    <div class="card" style="position: relative; cursor: pointer;">
+        <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
+            <!-- Gambar di Kiri -->
+            <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden" style="margin-right: 15px;">
+                <img src="/assets/gambardepan/dokumentasi/8.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/8.jpeg">
+            </div>
+
+            <!-- Konten Informasi Produk di Kanan -->
+            <div class="flex flex-col gap-1 product-info" style="display: flex; flex-direction: column; flex-grow: 1;">
+                <div class="flex gap-4" style="display: flex; flex-wrap: wrap;">
+                    <!-- Kolom Kiri (Informasi Utama) -->
+                    <div class="flex-1">
+                        <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">Produk: <span style="font-size: 14px; color: white;">Comming Soon</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Gauge: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Diameter: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Length: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Cigar Shape: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Time: <span style="font-size: 14px; color: black;">-</span></p>
+                    </div>
+
+                    <!-- Kolom Kanan (Informasi Tambahan) -->
+                    <div class="flex-1">
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Taste: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Strength: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
+                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+
+
             
 <a href="/produk3" class="card">
     <div class="card" style="position: relative; cursor: pointer;">
@@ -319,43 +359,6 @@
 </a>
 
             
-            
-<a href="/produk7" class="card">
-    <div class="card" style="position: relative; cursor: pointer;">
-        <div class="w-full flex items-start p-[14px] gap-6 rounded-2xl bg-white" style="background-image: linear-gradient(to bottom, #8B4513, white); margin-top: 5px;">
-            <!-- Gambar di Kiri -->
-            <div class="w-20 h-[90px] flex shrink-0 rounded-2xl overflow-hidden" style="margin-right: 15px;">
-                <img src="/assets/gambardepan/dokumentasi/8.jpeg" class="w-full h-full object-cover" alt="/assets/gambardepan/dokumentasi/8.jpeg">
-            </div>
-
-            <!-- Konten Informasi Produk di Kanan -->
-            <div class="flex flex-col gap-1 product-info" style="display: flex; flex-direction: column; flex-grow: 1;">
-                <div class="flex gap-4" style="display: flex; flex-wrap: wrap;">
-                    <!-- Kolom Kiri (Informasi Utama) -->
-                    <div class="flex-1">
-                        <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">Produk: <span style="font-size: 14px; color: white;">Comming Soon</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Gauge: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Ring Diameter: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Length: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Cigar Shape: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Time: <span style="font-size: 14px; color: black;">-</span></p>
-                    </div>
-
-                    <!-- Kolom Kanan (Informasi Tambahan) -->
-                    <div class="flex-1">
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Taste: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Strength: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</a>
-
             
             
             
