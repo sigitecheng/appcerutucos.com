@@ -129,7 +129,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">Besuki Naoogst</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">Javano</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">Javano</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">$100 / IDR Rp. 1.500.000,-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">$100 / IDR Rp. 1.500.000,-</span></p> --}}
                     
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">Besuki Naoogst</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">Javano</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">Javano</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">$100 / IDR Rp. 1.500.000,-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">$100 / IDR Rp. 1.500.000,-</span></p> --}}
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
                     </div>
                 </div>
             </div>
@@ -280,7 +280,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
                     </div>
                 </div>
             </div>
@@ -316,7 +316,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
                     </div>
                 </div>
             </div>
@@ -352,7 +352,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
                     </div>
                 </div>
             </div>
@@ -392,7 +392,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
                     </div>
                 </div>
             </div>
@@ -429,7 +429,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
                     </div>
                 </div>
             </div>
@@ -465,7 +465,7 @@
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Wrapper: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Blinder: <span style="font-size: 14px; color: black;">-</span></p>
                         <p class="product-detail" style="color: black; font-size: 14px; font-weight: 600; line-height: 18px;">Filler: <span style="font-size: 14px; color: black;">-</span></p>
-                        <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p>
+                        {{-- <p class="product-detail" style="color: green; font-size: 14px; font-weight: 600; line-height: 18px;">Price: <span style="font-size: 14px; color: green;">-</span></p> --}}
                     </div>
                 </div>
             </div>
