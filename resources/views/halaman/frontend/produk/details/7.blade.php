@@ -112,7 +112,7 @@
                         </p> --}}
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
                             <i class="fas fa-smoking" style="margin-right: 8px;"></i> Product : 
-                            <span style="font-size: 14px; color: white;">Cos Minion Sigar HT BOX</span>
+                            <span style="font-size: 14px; color: white;">Cos Minion Sigar HT Box</span>
                         </p>
                         
                         <br>
