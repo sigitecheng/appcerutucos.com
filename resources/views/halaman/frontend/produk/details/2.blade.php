@@ -108,8 +108,10 @@
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
                         
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-cigar" style="margin-right: 8px;"></i> Produk : <span style="font-size: 14px; color: white;">Cos Grand Torpedo</span>
+                            <i class="fas fa-smoking" style="margin-right: 8px;"></i> Product : 
+                            <span style="font-size: 14px; color: white;">Cos Grand Torpedo</span>
                         </p>
+                        
                         <br>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
                             <i class="fas fa-ring" style="margin-right: 8px;"></i> Ring Gauge : <span style="font-size: 14px; color: white;">54</span>

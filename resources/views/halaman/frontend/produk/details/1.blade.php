@@ -106,10 +106,11 @@
 
                 <div class="w-full flex items-center p-[14px] gap-3 rounded-2xl" style="background-image: linear-gradient(to bottom, #8B4513, #8B4513);  margin-top:10px;">
                     <div class="flex flex-col gap-1" style="margin-left: 15px; font-size:14px;">
-                        
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
-                            <i class="fas fa-cigar" style="margin-right: 8px;"></i> Produk : <span style="font-size: 14px; color: white;">Cos Grand Robusto</span>
+                            <i class="fas fa-smoking" style="margin-right: 8px;"></i> Product : 
+                            <span style="font-size: 14px; color: white;">Cos Grand Robusto</span>
                         </p>
+                        
                         <br>
                         <p class="product-detail" style="color: white; font-size: 14px; font-weight: 600; line-height: 18px;">
                             <i class="fas fa-ring" style="margin-right: 8px;"></i> Ring Gauge : <span style="font-size: 14px; color: white;">50</span>
